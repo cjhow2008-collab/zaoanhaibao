@@ -858,7 +858,6 @@ const App = () => {
                 <div className="text-[10px] text-gray-500 mb-2 p-2 bg-blue-50 rounded border border-blue-100">
                     💡 提示：在右侧海报中可直接拖拽 Logo，使用右下角手柄调整大小。
                 </div>
-                <Slider label="旋转" value={logo.style.rotation} min={0} max={360} onChange={(v: number) => setLogo(prev => ({...prev, style: {...prev.style, rotation: v}}))} unit="°"/>
               </div>
             )}
           </ControlGroup>
