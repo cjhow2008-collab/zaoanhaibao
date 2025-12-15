@@ -6,7 +6,7 @@ import './index.css'
 // --- Constants ---
 const POSTER_WIDTH = 720
 const POSTER_HEIGHT = 1280
-const API_BASE_URL = 'http://localhost:3002' // 请根据真机调试情况修改为局域网IP
+const API_BASE_URL = 'http://localhost:8787' // 请根据真机调试情况修改为局域网IP
 
 // --- Types ---
 interface Position { x: number; y: number }
